@@ -1,0 +1,30 @@
+=== benchmark: 20 random mazes, 0 loops each ===
+
+  maze | BFS steps | DFS steps | result
+     1 |        34 |        34 | tie
+     2 |        76 |        76 | tie
+     3 |        60 |        60 | tie
+     4 |        26 |        26 | tie
+     5 |        32 |        32 | tie
+     6 |        54 |        54 | tie
+     7 |        60 |        60 | tie
+     8 |        52 |        52 | tie
+     9 |        66 |        66 | tie
+    10 |        40 |        40 | tie
+    11 |        66 |        66 | tie
+    12 |        54 |        54 | tie
+    13 |        48 |        48 | tie
+    14 |        32 |        32 | tie
+    15 |        52 |        52 | tie
+    16 |        36 |        36 | tie
+    17 |        22 |        22 | tie
+    18 |        40 |        40 | tie
+    19 |        28 |        28 | tie
+    20 |        38 |        38 | tie
+
+---
+mazes tested : 20
+BFS shorter  : 0
+tie          : 20
+DFS shorter  : 0   (must stay 0: BFS is guaranteed shortest)
+invalid paths: 0   (must stay 0: the check walks every path)
